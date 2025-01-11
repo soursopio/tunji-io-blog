@@ -5,25 +5,30 @@
   <head>
     <meta charset="utf-8">
 <title>Nue / Getting started</title>
-<meta name="date.updated" content="2024-08-21T01:12:29.116Z">
+<meta name="date.updated" content="2024-10-16T18:38:17.397Z">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Minimalist, designer, and UX developer">
-<meta name="author" content="Emma Bennet">
+<meta name="author" content="S Tunji Turner">
 <meta property="og:image" content="https://simple-blog.nuejs.org/img/og_emma.png">
 <meta name="nue:components" content=" ">
 <link rel="icon" type="image/jpg" href="/img/favicon.jpg">
 <style href="/@global/colors.css">:root {
+  --black-900: #1b1c1e;
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
   --gray-300: #d1d5db;
   --gray-500: #6b7280;
-  --gray-800: #1f2937;
+  --gray-800: #cff;
   --gray-900: #111827;
   --main-500: #3b82f6;
   --main-600: #2563eb;
   --pink-gradient: linear-gradient(#e879f9, #ec4899);
   --blue-gradient: linear-gradient(#0ea5e9, #67e8f9);
   --marker: #ffff7a;
+}
+
+body {
+  background-color: #000;
 }
 </style>
 <style href="/@global/typography.css">body {
@@ -32,13 +37,14 @@
 
 h1 {
   letter-spacing: -.03em;
-  font-size: 2.6rem;
+  color: var(--gray-200);
+  font-size: 5rem;
 }
 
 h1, h1 + p {
-  text-align: center;
+  text-align: left;
   text-wrap: balance;
-  max-width: 40rem;
+  max-width: 80rem;
   margin: 0 auto .2em;
 }
 
@@ -53,7 +59,7 @@ a {
 }
 
 nav :is(a) {
-  color: var(--gray-900);
+  color: var(--gray-300);
   font-weight: 500;
 }
 
@@ -63,12 +69,12 @@ nav :is(a)[aria-selected] {
 }
 
 p, li {
-  color: var(--gray-500);
+  color: var(--gray-100);
   line-height: 1.65;
 }
 
 :is(p, li) strong {
-  color: var(--gray-800);
+  color: var(--gray-300);
 }
 </style>
 <style href="/@library/forms.css">:focus-visible {

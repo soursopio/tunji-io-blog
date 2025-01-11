@@ -1,9 +1,9 @@
 ---
-title: Crafting a scaleable CSS design system
+title: Well Crafting a scaleable CSS design system
 thumb: img/ui-thumb.png
 og: img/ui-1.png
 date: 2024-09-15
-credits: vlockn
+credits: sight media lab + tunji
 ---
 
 Design systems are key to managing code at scale, but creating one that’s flexible and maintainable takes work. A key to success is to break UI elements into reusable, abstracted components. When building a CSS design system, focus on these areas:
@@ -74,8 +74,3 @@ By investing in these areas, you can craft a design system that brings cohesion 
 [image img/ui-3.png]
 
 Using color effectively is a vital part of web design. When planned intentionally, your color palette creates visual harmony across your website or application. A cohesive color scheme boosts recognition of your brand, while making the interface feel cohesive.
-
-
-
-
-
